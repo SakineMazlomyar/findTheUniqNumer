@@ -1,6 +1,6 @@
 
 
-function test(arr){
+function findUniq(arr){
     let uniq = arr.filter((value,i,self)=>{ return self.indexOf(value) === i});
 
   
@@ -27,4 +27,4 @@ function test(arr){
 
 }
 
-console.log(test([ 0, 1, 1, 1, 1, 1, 1, 1 ]))
+console.log(findUniq([ 0, 1, 1, 1, 1, 1, 1, 1 ]))
